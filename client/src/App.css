@@ -1,0 +1,29 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Container styling */
+.MuiContainer-root {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Table container styling */
+.MuiTableContainer-root {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Header styling */
+.MuiAppBar-root {
+  background-color: #1976d2;
+}
